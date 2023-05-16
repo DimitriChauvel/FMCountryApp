@@ -1,0 +1,26 @@
+:root {
+  --dark-background: hsl(207, 26%, 17%);
+  --dark-component: hsl(209, 23%, 22%);
+  --dark-text: hsl(0, 0%, 100%);
+
+  --light-background: hsl(0, 0%, 98%);
+  --light-component: hsl(0, 0%, 100%);
+  --light-text: hsl(200, 15%, 8%);
+  
+  --placeholder-input: hsl(0, 0%, 52%);
+  --component-shadow: 0 0 10px hsla(0, 0%, 0%, 0.2);
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: 'Nunito Sans', sans-serif;
+  color: var(--light-text);
+}
+
+body {
+  background-color: var(--light-background);
+}
